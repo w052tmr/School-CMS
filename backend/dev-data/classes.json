@@ -1,0 +1,40 @@
+[
+    {
+        "name": "algebra 1",
+        "courseCode": "MTH-ALG-01-01",
+        "creditHrs": 3,
+        "term": 1,
+        "status": "active",
+        "teacher": ["66cd4788c92496249cd25451"],
+        "students": [
+            "66cd4788c92496249cd253e3",
+            "66cd4788c92496249cd253e5",
+            "66cd4788c92496249cd253df",
+            "66cd4788c92496249cd253db",
+            "66cd4788c92496249cd253e0",
+            "66cd4788c92496249cd253de",
+            "66cd4788c92496249cd253dc",
+            "66cd4788c92496249cd253d9",
+            "66cd4788c92496249cd253dd",
+            "66cd4788c92496249cd253da",
+            "66cd4788c92496249cd253ea",
+            "66cd4788c92496249cd253e8",
+            "66cd4788c92496249cd253db",
+            "66cd4788c92496249cd253ec",
+            "66cd4788c92496249cd253e9"
+        ],
+        "school": "William McKinley High School",
+        "assignmentWeights": {
+            "homework": 30,
+            "quizzes": 30,
+            "activities": 15,
+            "exams": 25,
+            "midterm": 0,
+            "final": 0,
+            "reports": 0,
+            "presentations": 0,
+            "projects": 0,
+            "participation": 0
+        }
+    }
+]

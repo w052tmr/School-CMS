@@ -1,0 +1,45 @@
+.accountSideBar {
+    width: 25%;
+}
+
+.accountSideBar div {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: var(--blue-light);
+    padding: 4rem;
+}
+
+.accountSideBar div h3 {
+    color: var(--grey-light-1);
+}
+
+.accountSideBar div img {
+    margin: 2rem auto 1rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.accountSideBar ul {
+    display: block;
+    list-style: none;
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid var(--blue-light);
+    transition: all 0.2s;
+}
+
+.accountSideBar ul li {
+    border: 1px solid var(--blue);
+    border-top: none;
+    border-right: none;
+    transition: all 0.2s;
+}
+
+.accountSideBar ul li:hover {
+    border-color: var(--grey-light-3);
+}

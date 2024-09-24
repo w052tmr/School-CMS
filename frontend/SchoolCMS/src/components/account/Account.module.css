@@ -1,0 +1,17 @@
+/* ACCOUNT SETTINGS */
+.accountContainer {
+    display: block;
+    text-align: center;
+    margin: 8rem auto;
+}
+
+.account {
+    max-width: 100rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: auto;
+    background-color: var(--blue);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}

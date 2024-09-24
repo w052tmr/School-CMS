@@ -1,0 +1,228 @@
+.controllerContainer {
+    margin: 1rem 2rem 2rem;
+    height: 50rem;
+    overflow-y: scroll;
+    text-align: left;
+}
+
+.controllerContainer .controllerHeader {
+    font-size: 2.4rem;
+    color: var(--grey-dark-0);
+    margin-bottom: 3rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* generic */
+.controllerContainer > div:first-child {
+    margin-top: 2rem;
+}
+
+.controllerContainer > div {
+    margin: 0rem auto 2rem;
+}
+
+.controllerContainer div span {
+    font-size: 1.2rem;
+}
+
+.flex {
+    display: flex;
+    gap: 4rem;
+}
+
+/* labels */
+.controllerContainer label {
+    font-size: 1.6rem;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+/* text inputs */
+.controllerContainer input {
+    color: var(--blue);
+    margin: 0 0.75rem 0 1rem;
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    border-radius: 3rem;
+}
+
+.controllerContainer .validationContainer > input {
+    width: 35%;
+}
+
+.controllerContainer input::placeholder {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: var(--grey-dark-3);
+}
+
+/* select inputs */
+.controllerContainer select {
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.8rem;
+    min-width: 10rem;
+    font-family: inherit;
+    font-size: 1.6rem;
+}
+
+.controllerContainer select:focus {
+    border: 2px solid var(--blue-light);
+}
+
+/* School Year + Term */
+.controllerContainer .academicYear {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.controllerContainer .academicYear > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.controllerContainer .academicYear input {
+    width: 60%;
+}
+
+/* Teachers and Students */
+.controllerContainer .courseUsers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controllerContainer .courseUsers .students,
+.controllerContainer .courseUsers .teachers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.controllerContainer .courseUsers input {
+    max-width: 38rem;
+    padding: 0.75rem 2rem;
+    border-radius: 20px;
+}
+
+.controllerContainer .courseUsers .students > div:last-child,
+.controllerContainer .courseUsers .teachers > div:last-child {
+    display: flex;
+    align-items: center;
+}
+
+.controllerContainer .courseUsers select {
+    width: 25rem;
+    height: 40rem;
+}
+
+.controllerContainer .courseUsers .students > *,
+.controllerContainer .courseUsers .teachers > * {
+    margin: 0.5rem;
+}
+
+/* assignment weighting */
+.controllerContainer .assignmentWeights {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    margin: 2rem 0 0 2rem;
+}
+
+.controllerContainer .assignmentWeights label {
+    font-size: 1.4rem;
+}
+
+.controllerContainer .assignmentWeights div {
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.controllerContainer .validationContainer {
+    position: relative;
+}
+
+/* Course List Styles */
+.controllerContainer .courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controllerContainer .courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.controllerContainer .courses input {
+    max-width: 38rem;
+    padding: 0.75rem 2rem;
+    border-radius: 20px;
+}
+
+.controllerContainer .courses > div:last-child {
+    display: flex;
+    align-items: center;
+}
+
+.controllerContainer .courses > * {
+    margin: 0.5rem;
+}
+
+.controllerContainer .updateFieldsHeading {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.controllerContainer .updateFields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem auto 4rem;
+}
+
+.controllerContainer .updateFields div:last-child {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.controllerContainer .updateFields .fieldsMessage {
+    font-size: 1.6rem;
+    color: var(--grey-dark-2);
+}
+
+.controllerContainer .field {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.controllerContainer .field label {
+    width: 90%;
+    cursor: pointer;
+}
+
+.controllerContainer .field input {
+    width: 10%;
+    cursor: pointer;
+}
+
+.controllerContainer .noCoursesToUpdate {
+    text-align: center;
+}
