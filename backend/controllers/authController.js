@@ -25,8 +25,7 @@ const sendTokenResponse = async (user, statusCode, res) => {
         ),
         secure: process.env.NODE_ENV === "production",
         httpOnly: true,
-        // sameSite: "None",
-        sameSite: process.env.NODE_ENV === "development" ? "Lax" : "Strict",
+        sameSite: process.env.NODE_ENV === "development" ? "Lax" : "None",
         // signed: true,
     });
 
@@ -135,7 +134,7 @@ exports.protect = catchAsync(async (req, res, next) => {
     } else if (req.cookies?.jwt) {
         token = req.cookies.jwt;
     }
-    console.log("Token:", token);
+
     // check that token exists
     if (!token)
         return next(
