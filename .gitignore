@@ -23,7 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
-*package.json
+# *package.json
 /frontend/dev/*
 /frontend/School CMS/node_modules
 /backend/node_modules
