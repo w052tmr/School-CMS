@@ -21,7 +21,10 @@ app.use(
     cors({
         credentials: true,
         allowedHeaders: ["Content-Type", "Authorization"],
-        origin: ["http://localhost:5173"],
+        origin: [
+            "http://localhost:5173",
+            "https://school-cms-client.vercel.app",
+        ],
     })
 );
 
