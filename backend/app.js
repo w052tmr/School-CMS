@@ -24,6 +24,8 @@ app.use(
             "Content-Type",
             "Authorization",
             "Access-Control-Allow-Origin",
+            "Access-Control-Allow-Methods",
+            "Access-Control-Allow-Headers",
         ],
         origin: [
             "http://localhost:5173",
@@ -33,6 +35,13 @@ app.use(
 );
 
 app.use(helmet());
+
+app.use((req, res, next) => {
+    res.append("Access-Control-Allow-Origin", ["*"]);
+    res.append("Access-Control-Allow-Methods", "GET,PUT,POST,DELETE");
+    res.append("Access-Control-Allow-Headers", "Content-Type");
+    next();
+});
 
 app.use("/api/v1/users", userRoutes);
 app.use("/api/v1/students", studentRoutes);
