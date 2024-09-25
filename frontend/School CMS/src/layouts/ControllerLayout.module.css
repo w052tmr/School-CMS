@@ -1,0 +1,31 @@
+.controller {
+    height: 100%;
+    height: 70rem;
+    position: relative;
+}
+
+.controller .submitButton {
+    position: absolute;
+    bottom: 2rem;
+    right: 4rem;
+    z-index: 2;
+    font-size: 2rem;
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 1rem 3rem;
+    border-radius: 25px;
+    transition: all 0.3s;
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: var(--grey-light-1);
+    background-color: var(--blue);
+    padding: 1rem 3rem;
+    border-radius: 25px;
+    transition: all 0.3s;
+}
+
+.controller .submitButton:hover {
+    background-color: var(--blue-dark);
+}

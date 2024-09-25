@@ -1,0 +1,57 @@
+.outerItem {
+    display: block;
+    border: 1px solid var(--grey-light-3);
+}
+
+.outerItem:last-child {
+    padding-bottom: 0;
+    position: relative;
+}
+
+.outerItem .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.outerItem .heading:hover {
+    background-color: var(--grey-light-3);
+}
+
+.student-heading-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.heading a {
+    display: inline-block;
+    padding: 0rem 1rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+    transition: all 0.2s;
+    color: var(--blue-dark);
+}
+
+.heading h3 {
+    padding: 2rem;
+    width: 35%;
+}
+
+.heading p {
+    font-size: 1.6rem;
+}
+
+.heading .info {
+    color: var(--grey-dark-2);
+    transition: all 0.2s;
+}
+
+.heading .info:hover {
+    color: var(--grey-dark-0);
+}

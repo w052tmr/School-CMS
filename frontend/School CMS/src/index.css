@@ -1,0 +1,66 @@
+@import url("https://fonts.cdnfonts.com/css/century-schoolbook");
+@import url("https://fonts.cdnfonts.com/css/lato");
+
+:root {
+    --blue: #004080;
+    --blue-dark: #00264d;
+    --blue-light: #668cb3;
+    --grey-light-1: #f2f9ff;
+    --grey-light-2: #dae0e6;
+    --grey-light-3: #c2c7cc;
+    --grey-dark-0: #413c35;
+    --grey-dark-1: #5c574f;
+    --grey-dark-2: #7d7972;
+    --grey-dark-3: #9d9a95;
+    --black: #00060d;
+
+    /* --green: #c3e6cf; */
+    --green: #8ae691;
+    --green-dark: #49a554;
+    /* --red: #e6c3c3; */
+    --red: #e68a8a;
+    --red-dark: #a34e50;
+}
+
+/* BASE */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 56.25%;
+    font-family: "Century Schoolbook", "Lato", sans-serif;
+}
+
+body {
+    font-size: 2.2rem;
+    color: var(--black);
+    background-color: var(--grey-light-1);
+}
+
+/* GLOBAL */
+input:focus {
+    outline: none;
+}
+
+select:focus {
+    outline: none;
+}
+
+select,
+input {
+    border: 2px solid transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+*::selection {
+    background-color: var(--blue-light);
+    color: var(--grey-light-1);
+}

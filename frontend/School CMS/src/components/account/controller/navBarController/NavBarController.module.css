@@ -1,0 +1,31 @@
+.controlBar {
+    list-style: none;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: var(--grey-light-3);
+}
+
+.controlBar a {
+    border-radius: 20px;
+    padding: 1rem 3rem;
+    color: var(--grey-light-1);
+    /* background-color: var(--grey-dark-3); */
+    background-color: var(--blue-light);
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+
+.controlBar a:hover {
+    color: var(--grey-dark-1);
+    background-color: var(--grey-light-2);
+}
+
+.controlBar a:global(.active) {
+    color: var(--grey-dark-1);
+    background-color: var(--grey-light-1);
+}

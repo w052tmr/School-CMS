@@ -1,0 +1,125 @@
+.innerList {
+    display: block;
+    margin: 0 1rem;
+    padding: 1rem 0rem;
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+.innerHeading {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.innerHeading:first-child > *:not(:last-child) {
+    display: inline-block;
+}
+
+.students {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(10rem, 1fr));
+}
+
+.students p {
+    padding-bottom: 1rem;
+    letter-spacing: 0.2rem;
+    border-bottom: 1px solid var(--grey-light-3);
+}
+
+.student-assignment:first-child > *:not(:last-child) {
+    border-bottom: 1px solid var(--grey-light-3);
+    padding: 0.5rem 0;
+}
+
+.student-assignment {
+    grid-template-columns: repeat(7, minmax(10rem, 1fr));
+}
+
+.class-student {
+    grid-template-columns: repeat(4, minmax(10rem, 1fr));
+}
+
+.class-student:first-child > * {
+    border-bottom: 1px solid var(--grey-light-3);
+    padding: 0.5rem;
+}
+
+.student {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.student-name {
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.student-photo {
+    display: inline-block;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.assignments-outer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem;
+    padding: 1rem 2rem;
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+.assignments-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.assignments-inner > * {
+    margin: 1rem 0;
+}
+
+.assignments-inner:nth-child(3) > * {
+    margin: 1rem auto;
+}
+
+.assignments-inner > *:first-child {
+    margin: 0.25rem auto;
+    padding: 0.25rem 0.75rem 0.5rem;
+    border-bottom: 1px solid var(--grey-light-3);
+}
+
+.assignments-inner:last-child > *:first-child {
+    margin-bottom: -0.25rem; /* empty space */
+}
+
+.assignments-inner:last-child > * {
+    margin: 0.8rem auto;
+}
+
+.assignments-inner:last-child > *:first-child {
+    border-bottom: none;
+}
+
+.grade-summary {
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid var(--grey-light-3);
+}
+
+.grade-summary span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+    margin: 2rem 0;
+    border-radius: 4px;
+    background-color: var(--grey-light-3);
+}

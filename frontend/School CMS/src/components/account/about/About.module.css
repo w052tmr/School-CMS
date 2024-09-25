@@ -1,0 +1,4 @@
+.aboutContainer {
+    border: 1rem solid var(--grey-light-2);
+    padding: 2rem;
+}
