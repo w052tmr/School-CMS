@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import useSetStorage from "src/hooks/useSetStorage";
 import useStorage from "src/hooks/useStorage";
 
-import styles from "./selectFormList.module.css";
+import styles from "./SelectFormList.module.css";
 
 import SelectFormItem from "./SelectFormItem";
 
