@@ -20,7 +20,11 @@ app.use(cookieParser());
 app.use(
     cors({
         credentials: true,
-        allowedHeaders: ["Content-Type", "Authorization"],
+        allowedHeaders: [
+            "Content-Type",
+            "Authorization",
+            "Access-Control-Allow-Origin",
+        ],
         origin: [
             "http://localhost:5173",
             "https://school-cms-client.vercel.app",
