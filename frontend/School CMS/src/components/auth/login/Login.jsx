@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 import "../auth.css";
-import styles from "./login.module.css";
+import styles from "./Login.module.css";
 
 import { useAuth } from "src/contexts/AuthContext";
 import Button from "src/components/button/Button";

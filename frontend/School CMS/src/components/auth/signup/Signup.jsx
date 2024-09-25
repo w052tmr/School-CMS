@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import "../auth.css";
-import styles from "./signup.module.css";
+import styles from "./Signup.module.css";
 import Button from "src/components/button/Button";
 
 function Signup() {
