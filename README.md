@@ -1,19 +1,16 @@
 # School Content Management System (CMS)
 
 ## Login Info for Using the App
-  ### Admin Email: 
+  ### Admin Credentials: 
     sylvia.wheeler@example.com
-  ### Admin Password: 
     test1234
 
-  ### Student Email: 
+  ### Student Credentials: 
     jennie.curtis@example.com
-  ### 
     Student Password: test1234
 
-  ### Teacher Email:
+  ### Teacher Credentials:
     jonathan.carter@example.com
-  ### Teacher Password: 
     test1234
 
 
