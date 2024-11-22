@@ -2,16 +2,16 @@
 
 ## Login Info for Using the App
   ### Admin Credentials: 
-    sylvia.wheeler@example.com
-    test1234
+    Email: sylvia.wheeler@example.com
+    Password: test1234
 
   ### Student Credentials: 
-    jennie.curtis@example.com
-    Student Password: test1234
+    Email: jennie.curtis@example.com
+    Password: test1234
 
   ### Teacher Credentials:
-    jonathan.carter@example.com
-    test1234
+    Email: jonathan.carter@example.com
+    Password: test1234
 
 
 1. This app is currently in development. Many features have still not yet been implemented. The UI will look different depending on the user type once the app is complete.
